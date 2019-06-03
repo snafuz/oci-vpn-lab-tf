@@ -1,0 +1,20 @@
+#######################
+## variables for vpn-lab
+#######################
+export TF_VAR_tenancy_ocid="__tenancy_ocid__"
+
+export TF_VAR_user_ocid="__user_ocid__"
+
+export TF_VAR_fingerprint="__fingerprint__"
+
+export TF_VAR_private_key_path='__API_private_key_path__'
+
+### Region
+export TF_VAR_region="__3-characters_region_code__"
+
+###Compartment
+export TF_VAR_compartment_ocid="__compartment_id__"
+              
+### Public/private keys used on the instance
+export TF_VAR_ssh_public_key=`cat __ssh_public_key_path__`
+export TF_VAR_ssh_private_key=`cat __ssh_private_key_path__`
